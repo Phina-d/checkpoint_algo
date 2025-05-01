@@ -1,0 +1,28 @@
+ALGORITHME La fille chante
+
+Variable
+    chaine de caractere: la phrase,
+    entier: nombre de mots, nombre de voyelles
+    caractere:le point
+
+DEBUT
+
+    ecrire ("la phrase")
+    lire(la fille chante.)
+
+    longueur:=longueur(phrase, "nbcaractere")
+    ecrire "Longueur de la phrase(nbcaractere) :", caractere
+   
+    nombre:=nb(mots)
+    Calculer le nombre de mots :=(nbmots ("La", "fille", "chante"))
+    ecrire "Nombre de mots :", nombre_mots
+
+    nombre:=nb(voyelles)
+    Calculer le nombre de voyelles :=(nbvoyelle (a, i, e, a, e) :)
+    ecrire"Nombre de voyelles :", nombre_voyelles
+
+    caracter=(".")
+    lire(.)
+
+Fin
+
