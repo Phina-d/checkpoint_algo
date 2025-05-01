@@ -1,4 +1,8 @@
-ALGORITHME La fille chante
+ALGORITHME La fille chante.
+Definir la longueur de la phrase (le nombre de caractères).
+Donner le nombre de mots dans la phrase (en supposant que les mots sont séparés par un seul espace).
+Donner le nombre de voyelles dans la phrase.
+
 
 Variable
     chaine de caractere: la phrase,
