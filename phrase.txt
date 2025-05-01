@@ -1,32 +1,35 @@
 ALGORITHME La fille chante.
-Definir la longueur de la phrase (le nombre de caractères).
+Definir la longueur de la phrase (le nombre de caractères):chaine de caracrtere
 Donner le nombre de mots dans la phrase (en supposant que les mots sont séparés par un seul espace).
 Donner le nombre de voyelles dans la phrase.
 
-
 Variable
-    chaine de caractere: la phrase,
-    entier: nombre de mots, nombre de voyelles
-    caractere:le point
+    phrase: chaine de caractere
+    nombre de mots, nombre de voyelles: entier 
+    point: caractere
 
 DEBUT
-
-    ecrire ("la phrase")
-    lire(la fille chante.)
-
-    longueur:=longueur(phrase, "nbcaractere")
-    ecrire "Longueur de la phrase(nbcaractere) :", caractere
-   
-    nombre:=nb(mots)
-    Calculer le nombre de mots :=(nbmots ("La", "fille", "chante"))
-    ecrire "Nombre de mots :", nombre_mots
-
-    nombre:=nb(voyelles)
-    Calculer le nombre de voyelles :=(nbvoyelle (a, i, e, a, e) :)
-    ecrire"Nombre de voyelles :", nombre_voyelles
-
-    caracter=(".")
-    lire(.)
+    ecrire ('Entrer une phrase de votre choix: ')
+    lire(phrase)
+    Pour i allant de 0 à longueur(phrase, cartactere)-1
+    compteur ← compteur + 1
+    Afficher "Le nombre de caractères est : " + compteur
 
 Fin
+   Debut
+    Pour i ← 0 à nombre (mots) -1
+    nombre:=nb(mots ("La", "fille", "chante"))
+    ecrire "Nombre de mots :", nombre_mots
+Fin
+Debut
+    nombre:=nb(voyelles)
+    Pour i ← 0 à nombre (voyelles) -1
+    Si texte [i]='a' ou texte [i]='e' ou texte [i]='i' ou texte [i] alors nbr ← nbr+1
+    FinSI 
+    FinPour
+    Retourne nbr
+    ecrire"Nombre de voyelles :", nombre_voyelles
+
+Fin
+
 
